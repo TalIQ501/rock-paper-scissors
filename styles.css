@@ -1,0 +1,39 @@
+section {
+    padding: 30px;
+}
+
+#game-score {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 30px;
+}
+
+.score {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#game-ui {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn-game {
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    background-color: #229966;
+    color: #f1f1f1;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+#btn-reset {
+    background-color: #993311;
+}
+
+.btn-game:hover {
+    opacity: 0.8;
+}
